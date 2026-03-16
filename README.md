@@ -3,7 +3,7 @@
 This repository contains the code and data for reproducing the experiments in our paper.
 
 - **`code/`** — 17 Python scripts covering the full pipeline.
-- **`data/`** — 129 data files organized into 3 subfolders: `raw_results/` (48), `analysis/` (58), `annotation/` (23).
+- **`data/`** — 129 data files organized into 2 subfolders: `analysis/` (58), `annotation/` (23).
 
 ## Overview
 
