@@ -1,0 +1,9 @@
+Model,Best Layer,KL Divergence,Top-1 Accuracy,Entropy Error,Mean Correlation
+Llama-3.3-70B,63,0.1234 ± 0.1564,0.527,0.1284,0.457
+  Uniform Baseline,-,0.1991,0.360,-,-
+  Step-Prior Baseline,-,0.1585,0.267,-,-
+  Permutation Baseline,-,0.1711 ± 0.0059,-,-,p=0.0000
+Qwen2.5-72B,17,0.1370 ± 0.1469,0.517,0.1342,0.420
+  Uniform Baseline,-,0.1891,0.290,-,-
+  Step-Prior Baseline,-,0.1646,0.370,-,-
+  Permutation Baseline,-,0.1722 ± 0.0042,-,-,p=0.0000

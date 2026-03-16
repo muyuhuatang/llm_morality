@@ -1,0 +1,11 @@
+{
+  "model": "gpt-5-mini",
+  "total_samples": 300,
+  "successful": 300,
+  "failed": 0,
+  "success_rate": 1.0,
+  "total_tokens": 500255,
+  "avg_tokens_per_sample": 1667.5166666666667,
+  "avg_response_length": 2783.116666666667,
+  "collection_method": "parallel_api"
+}

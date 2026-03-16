@@ -1,0 +1,8 @@
+archetype,fdr_mean,fdr_std,entropy_mean,entropy_std,faithfulness_mean,faithfulness_std,count
+bounce_back,0.73,0.131,1.518,0.064,0.018,0.071,622
+funnel_to_util_bounce,0.81,0.165,1.521,0.074,0.017,0.066,896
+funnel_to_util_stay,0.494,0.167,1.507,0.075,0.025,0.102,542
+oscillation,1.0,0.0,1.522,0.051,0.016,0.057,87
+other,1.0,0.0,1.54,0.039,0.014,0.05,165
+progressive_drift,0.505,0.213,1.523,0.062,0.015,0.085,663
+stable,0.0,0.0,1.456,0.116,1.0,0.0,621

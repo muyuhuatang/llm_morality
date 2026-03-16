@@ -1,0 +1,78 @@
+{
+  "total_responses": 1800,
+  "parsed_responses": 1798,
+  "parse_rate": 0.9988888888888889,
+  "models": [
+    "gpt-4o",
+    "gpt-4o-mini",
+    "gpt-5",
+    "gpt-5-mini",
+    "o3-mini",
+    "o4-mini"
+  ],
+  "datasets": [
+    "ethics",
+    "moral_stories",
+    "social_chem_101"
+  ],
+  "step_stats": {
+    "mean": {
+      "gpt-4o": 3.973333333333333,
+      "gpt-4o-mini": 4.113333333333333,
+      "gpt-5": 5.14,
+      "gpt-5-mini": 4.6,
+      "o3-mini": 3.5866666666666664,
+      "o4-mini": 4.214765100671141
+    },
+    "std": {
+      "gpt-4o": 0.2572472404086811,
+      "gpt-4o-mini": 0.31752948229939215,
+      "gpt-5": 0.6747227846459624,
+      "gpt-5-mini": 0.49071649206571843,
+      "o3-mini": 0.5323848868830652,
+      "o4-mini": 0.43521361122725055
+    },
+    "min": {
+      "gpt-4o": 3,
+      "gpt-4o-mini": 4,
+      "gpt-5": 4,
+      "gpt-5-mini": 4,
+      "o3-mini": 3,
+      "o4-mini": 3
+    },
+    "max": {
+      "gpt-4o": 5,
+      "gpt-4o-mini": 5,
+      "gpt-5": 8,
+      "gpt-5-mini": 5,
+      "o3-mini": 5,
+      "o4-mini": 5
+    }
+  },
+  "token_stats": {
+    "prompt_tokens": {
+      "gpt-4o": 557.46,
+      "gpt-4o-mini": 557.46,
+      "gpt-5": 556.46,
+      "gpt-5-mini": 556.46,
+      "o3-mini": 556.46,
+      "o4-mini": 556.9161073825503
+    },
+    "completion_tokens": {
+      "gpt-4o": 402.07,
+      "gpt-4o-mini": 418.4633333333333,
+      "gpt-5": 1547.64,
+      "gpt-5-mini": 1111.0566666666666,
+      "o3-mini": 914.8233333333334,
+      "o4-mini": 866.5771812080537
+    },
+    "total_tokens": {
+      "gpt-4o": 959.53,
+      "gpt-4o-mini": 975.9233333333333,
+      "gpt-5": 2104.1,
+      "gpt-5-mini": 1667.5166666666667,
+      "o3-mini": 1471.2833333333333,
+      "o4-mini": 1423.493288590604
+    }
+  }
+}

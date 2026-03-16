@@ -1,0 +1,3 @@
+Transfer,Best Layer,Transfer KL,Within-Model KL,Degradation
+Llama-3.3-70B → Qwen2.5-72B,5,0.1815,0.1370,32.5%
+Qwen2.5-72B → Llama-3.3-70B,41,0.1822,0.1234,47.6%

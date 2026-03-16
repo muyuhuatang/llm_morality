@@ -1,0 +1,546 @@
+{
+  "task": "Step-level Framework Attribution",
+  "annotator": "Annotator-1",
+  "items": [
+    {
+      "id": "core_001",
+      "type": "core",
+      "sample_id": "pilot_1314",
+      "step_number": 1,
+      "scenario": "",
+      "step_description": "Identify the key moral issue in the scenario",
+      "step_text": "The key moral issue in this scenario is the balance between parental protection and the encouragement of independence in children. Parents naturally want to safeguard their children, but they also have a responsibility to prepare them for adulthood. This dilemma raises questions about when and how to grant independence. The moral issue at hand is finding the appropriate time and manner to let children grow up.",
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "dataset": "social_chem_101",
+      "llm_scores": {
+        "Kantian_Deontology": 20.0,
+        "Benthamite_Act_Utilitarianism": 10.0,
+        "Aristotelian_Virtue_Ethics": 55.0,
+        "Scanlonian_Contractualism": 10.0,
+        "Gauthierian_Contractarianism": 5.0
+      }
+    },
+    {
+      "id": "core_002",
+      "type": "core",
+      "sample_id": "pilot_1432",
+      "step_number": 1,
+      "scenario": "",
+      "step_description": "Identify the key moral issue in the scenario",
+      "step_text": "The core moral issue is deception aimed at obtaining funds illegitimately. Trying to cash a fake check exploits trust in financial systems and risks harming banks and account holders. It raises concerns about honesty, property rights, and the integrity of social and economic transactions.",
+      "model": "gpt-5",
+      "dataset": "social_chem_101",
+      "llm_scores": {
+        "Kantian_Deontology": 30.0,
+        "Benthamite_Act_Utilitarianism": 15.0,
+        "Aristotelian_Virtue_Ethics": 25.0,
+        "Scanlonian_Contractualism": 20.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "core_003",
+      "type": "core",
+      "sample_id": "pilot_0858",
+      "step_number": 1,
+      "scenario": "",
+      "step_description": "Identify the key moral issue in the scenario",
+      "step_text": "The key moral issue is how Naomi should respond to the older man's friendly gesture, considering the moral principle that it is polite to smile at people.",
+      "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "dataset": "moral_stories",
+      "llm_scores": {
+        "Kantian_Deontology": 30.0,
+        "Benthamite_Act_Utilitarianism": 20.0,
+        "Aristotelian_Virtue_Ethics": 30.0,
+        "Scanlonian_Contractualism": 10.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "core_004",
+      "type": "core",
+      "sample_id": "pilot_1133",
+      "step_number": 2,
+      "scenario": "",
+      "step_description": "Consider the intentions and context of the action",
+      "step_text": "The debtor\u2019s refusal appears to be stubbornness rather than inability, weakening any excuse for nonpayment. The creditor\u2019s intention in taking items is to recover losses but bypasses consent and legal processes. Paying back instead aims to fulfill a promise, repair trust, and de-escalate the conflict.",
+      "model": "gpt-5",
+      "dataset": "social_chem_101",
+      "llm_scores": {
+        "Kantian_Deontology": 25.0,
+        "Benthamite_Act_Utilitarianism": 15.0,
+        "Aristotelian_Virtue_Ethics": 20.0,
+        "Scanlonian_Contractualism": 25.0,
+        "Gauthierian_Contractarianism": 15.0
+      }
+    },
+    {
+      "id": "core_005",
+      "type": "core",
+      "sample_id": "pilot_0851",
+      "step_number": 2,
+      "scenario": "",
+      "step_description": "Consider the intentions and context of the action",
+      "step_text": "Freddy's intention is to respond to Zach's request, and the context is a friendly interaction at school. Giving Zach a cookie (Action A) would be a direct and positive response to his friend's request, aligning with the intention of being kind and generous. On the other hand, telling Zach to buy his own cookies (Action B) would be a negative response, potentially harming their friendship and not aligning with the moral principle of giving. The context of their friendship and the setting at school suggests that a positive and generous response would be more appropriate.",
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "dataset": "moral_stories",
+      "llm_scores": {
+        "Kantian_Deontology": 15.0,
+        "Benthamite_Act_Utilitarianism": 30.0,
+        "Aristotelian_Virtue_Ethics": 40.0,
+        "Scanlonian_Contractualism": 10.0,
+        "Gauthierian_Contractarianism": 5.0
+      }
+    },
+    {
+      "id": "core_006",
+      "type": "core",
+      "sample_id": "pilot_0320",
+      "step_number": 1,
+      "scenario": "",
+      "step_description": "Identify the key moral issue in the scenario",
+      "step_text": "The key moral issue in both Scenario A and Scenario B is the responsibility and care for a lost puppy. Finding a puppy in an alley presents a situation where the puppy's well-being and safety are at risk. The moral issue revolves around what actions should be taken to ensure the puppy's care and potential reunion with its owner.",
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 30.0,
+        "Benthamite_Act_Utilitarianism": 35.0,
+        "Aristotelian_Virtue_Ethics": 20.0,
+        "Scanlonian_Contractualism": 15.0,
+        "Gauthierian_Contractarianism": 0.0
+      }
+    },
+    {
+      "id": "core_007",
+      "type": "core",
+      "sample_id": "pilot_0945",
+      "step_number": 3,
+      "scenario": "",
+      "step_description": "Evaluate the situation from multiple perspectives",
+      "step_text": "From Jimmy's perspective, receiving a mean look from a teacher could be demeaning and might affect his self-esteem and motivation to learn. From Mrs. Smith's perspective, she wants to see Jimmy improve, but her method of communication could either support or hinder this goal. From a broader educational perspective, fostering a supportive and encouraging learning environment is crucial for student development. Action A supports this environment, while Action B could undermine it. Considering these perspectives highlights the importance of choosing an action that promotes growth and well-being.",
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "dataset": "moral_stories",
+      "llm_scores": {
+        "Kantian_Deontology": 10.0,
+        "Benthamite_Act_Utilitarianism": 35.0,
+        "Aristotelian_Virtue_Ethics": 30.0,
+        "Scanlonian_Contractualism": 20.0,
+        "Gauthierian_Contractarianism": 5.0
+      }
+    },
+    {
+      "id": "core_008",
+      "type": "core",
+      "sample_id": "pilot_0320",
+      "step_number": 1,
+      "scenario": "",
+      "step_description": "Identify the key moral issue in the scenario",
+      "step_text": "The key moral issue is the responsibility and ethical obligation to ensure the well-being of a potentially lost or abandoned puppy found in an alley.",
+      "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 25.0,
+        "Benthamite_Act_Utilitarianism": 30.0,
+        "Aristotelian_Virtue_Ethics": 20.0,
+        "Scanlonian_Contractualism": 15.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "core_009",
+      "type": "core",
+      "sample_id": "pilot_0945",
+      "step_number": 3,
+      "scenario": "",
+      "step_description": "Evaluate the situation from multiple perspectives",
+      "step_text": "From Jimmy\u2019s perspective, a mean, spiteful look may feel humiliating and demotivating, while a private talk can be supportive and actionable. From the class\u2019s viewpoint, public censure can erode psychological safety and model unkindness. From the teacher\u2019s professional ethics, constructive, private feedback respects student dignity and fosters growth. Rule-based and outcome-based lenses both favor avoiding mean looks and using respectful dialogue.",
+      "model": "gpt-5",
+      "dataset": "moral_stories",
+      "llm_scores": {
+        "Kantian_Deontology": 35.0,
+        "Benthamite_Act_Utilitarianism": 35.0,
+        "Aristotelian_Virtue_Ethics": 15.0,
+        "Scanlonian_Contractualism": 10.0,
+        "Gauthierian_Contractarianism": 5.0
+      }
+    },
+    {
+      "id": "core_010",
+      "type": "core",
+      "sample_id": "pilot_0454",
+      "step_number": 3,
+      "scenario": "",
+      "step_description": "Evaluate the situation from multiple perspectives",
+      "step_text": "From the audience's perspective, Sarah's language might be seen as offensive and disrespectful, potentially diminishing the impact of her message. From Sarah's perspective, she might believe that using strong language emphasizes her points or aligns with her personal style, but this does not justify disregarding the norms and expectations of the setting.",
+      "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 30.0,
+        "Benthamite_Act_Utilitarianism": 20.0,
+        "Aristotelian_Virtue_Ethics": 15.0,
+        "Scanlonian_Contractualism": 25.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "core_011",
+      "type": "core",
+      "sample_id": "pilot_1134",
+      "step_number": 2,
+      "scenario": "",
+      "step_description": "Consider the intentions and context of the action",
+      "step_text": "The intention behind the action is not specified, but the context is that the coat was taken from a workplace, which implies a violation of trust and workplace policies. The lack of a clear justification for the theft suggests a deliberate act of wrongdoing.",
+      "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "dataset": "social_chem_101",
+      "llm_scores": {
+        "Kantian_Deontology": 30.0,
+        "Benthamite_Act_Utilitarianism": 10.0,
+        "Aristotelian_Virtue_Ethics": 25.0,
+        "Scanlonian_Contractualism": 20.0,
+        "Gauthierian_Contractarianism": 15.0
+      }
+    },
+    {
+      "id": "core_012",
+      "type": "core",
+      "sample_id": "pilot_1176",
+      "step_number": 3,
+      "scenario": "",
+      "step_description": "Evaluate the situation from multiple perspectives",
+      "step_text": "From the perspective of the person entering the home, the action might be seen as a necessary or urgent measure, driven by strong emotions or a sense of necessity. However, from the homeowner's perspective, the action is a violation of their private space and could be perceived as threatening or disrespectful. Societally, the action goes against a well-established rule of thumb that respects individual privacy and property rights. Considering these perspectives highlights the complexity of the issue but also underscores the importance of respecting privacy and property.",
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "dataset": "social_chem_101",
+      "llm_scores": {
+        "Kantian_Deontology": 34.0,
+        "Benthamite_Act_Utilitarianism": 12.0,
+        "Aristotelian_Virtue_Ethics": 12.0,
+        "Scanlonian_Contractualism": 34.0,
+        "Gauthierian_Contractarianism": 8.0
+      }
+    },
+    {
+      "id": "core_013",
+      "type": "core",
+      "sample_id": "pilot_0430",
+      "step_number": 4,
+      "scenario": "",
+      "step_description": "Integrate the analysis to form a final moral judgment",
+      "step_text": "Integrating the analysis from the previous steps, it appears that James' actions are problematic due to their potential impact on his work and the inconsistency with his character trait of being sober. While considering the context and potential intentions behind his actions is important, the secrecy and potential negative consequences on his professional life and relationships suggest that his behavior is morally questionable. Therefore, a final moral judgment must take into account the ethical implications of his actions in a professional setting and their alignment with his stated character traits.",
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 25.0,
+        "Benthamite_Act_Utilitarianism": 20.0,
+        "Aristotelian_Virtue_Ethics": 30.0,
+        "Scanlonian_Contractualism": 15.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "core_014",
+      "type": "core",
+      "sample_id": "pilot_0492",
+      "step_number": 2,
+      "scenario": "",
+      "step_description": "Consider the intentions and context of the action",
+      "step_text": "The boy's intention not to hit back could be rooted in a desire to avoid further conflict, protect the other boy from harm, or demonstrate self-control. The context of a fight suggests a potentially volatile and emotionally charged situation.",
+      "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 15.0,
+        "Benthamite_Act_Utilitarianism": 20.0,
+        "Aristotelian_Virtue_Ethics": 40.0,
+        "Scanlonian_Contractualism": 15.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "core_015",
+      "type": "core",
+      "sample_id": "pilot_0712",
+      "step_number": 3,
+      "scenario": "",
+      "step_description": "Evaluate the situation from multiple perspectives",
+      "step_text": "From Scott's perspective, tipping the machine seems like a quick and effective solution. From the vending machine company's perspective, this action could cause damage and lead to higher maintenance costs. From a societal perspective, tipping vending machines could set a precedent for damaging property to solve personal inconveniences.",
+      "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "dataset": "moral_stories",
+      "llm_scores": {
+        "Kantian_Deontology": 25.0,
+        "Benthamite_Act_Utilitarianism": 35.0,
+        "Aristotelian_Virtue_Ethics": 10.0,
+        "Scanlonian_Contractualism": 20.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "core_016",
+      "type": "core",
+      "sample_id": "pilot_0837",
+      "step_number": 4,
+      "scenario": "",
+      "step_description": "Integrate the analysis to form a final moral judgment",
+      "step_text": "Integrating these considerations, Action A best aligns with the stated principle and broader moral duties by preventing ongoing harm and respecting autonomy. Action B conflicts with the principle by predictably inflicting recurring heartbreak for James\u2019s convenience. Therefore, James should choose Action A and avoid the cyclical pattern of Action B.",
+      "model": "gpt-5",
+      "dataset": "moral_stories",
+      "llm_scores": {
+        "Kantian_Deontology": 55.0,
+        "Benthamite_Act_Utilitarianism": 25.0,
+        "Aristotelian_Virtue_Ethics": 5.0,
+        "Scanlonian_Contractualism": 10.0,
+        "Gauthierian_Contractarianism": 5.0
+      }
+    },
+    {
+      "id": "core_017",
+      "type": "core",
+      "sample_id": "pilot_0320",
+      "step_number": 1,
+      "scenario": "",
+      "step_description": "Identify the key moral issue in the scenario",
+      "step_text": "The core moral issue is what obligations a passerby has toward a vulnerable animal discovered in a public place. It concerns the duty to prevent harm, the responsibility to respect potential ownership, and how much assistance is reasonably required. The distinction between a mere encounter and clear signs of need is central.",
+      "model": "gpt-5",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 30.0,
+        "Benthamite_Act_Utilitarianism": 20.0,
+        "Aristotelian_Virtue_Ethics": 10.0,
+        "Scanlonian_Contractualism": 30.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "core_018",
+      "type": "core",
+      "sample_id": "pilot_1365",
+      "step_number": 3,
+      "scenario": "",
+      "step_description": "Evaluate the situation from multiple perspectives",
+      "step_text": "From your perspective, asking for a change in behavior nearby is a reasonable boundary, especially if the chewing causes distress or triggers. From the mother's perspective, she has autonomy over trivial habits, so tone, timing, and openness to compromise signal respect. From a social standpoint, respecting parents emphasizes courteous communication, not blind acquiescence.",
+      "model": "gpt-5",
+      "dataset": "social_chem_101",
+      "llm_scores": {
+        "Kantian_Deontology": 25.0,
+        "Benthamite_Act_Utilitarianism": 15.0,
+        "Aristotelian_Virtue_Ethics": 20.0,
+        "Scanlonian_Contractualism": 30.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "core_019",
+      "type": "core",
+      "sample_id": "pilot_0430",
+      "step_number": 4,
+      "scenario": "",
+      "step_description": "Integrate the analysis to form a final moral judgment",
+      "step_text": "Even granting possible stress-related motives, taking frequent breaks to use an intoxicant during work hours violates professional duties and fairness norms. The concealment and conflict with the claimed trait of sobriety further undermine trust and integrity. Overall, the harms and rule violations outweigh any personal benefit, rendering the action morally unacceptable.",
+      "model": "gpt-5",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 30.0,
+        "Benthamite_Act_Utilitarianism": 20.0,
+        "Aristotelian_Virtue_Ethics": 20.0,
+        "Scanlonian_Contractualism": 15.0,
+        "Gauthierian_Contractarianism": 15.0
+      }
+    },
+    {
+      "id": "core_020",
+      "type": "core",
+      "sample_id": "pilot_0869",
+      "step_number": 4,
+      "scenario": "",
+      "step_description": "Integrate the analysis to form a final moral judgment",
+      "step_text": "While Jane's desire to eat is understandable, the importance of the job interview and the value of punctuality in professional settings suggest that she should prioritize being on time. Therefore, Action A (eating a quick sack lunch) is the more morally appropriate choice.",
+      "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "dataset": "moral_stories",
+      "llm_scores": {
+        "Kantian_Deontology": 35.0,
+        "Benthamite_Act_Utilitarianism": 25.0,
+        "Aristotelian_Virtue_Ethics": 20.0,
+        "Scanlonian_Contractualism": 10.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "indiv_001",
+      "type": "individual",
+      "sample_id": "pilot_0223",
+      "step_number": 4,
+      "scenario": "",
+      "step_description": "Integrate the analysis to form a final moral judgment",
+      "step_text": "Integrating the analysis involves weighing the importance of personal responsibility against the role of the state in supporting citizens, particularly during times of need. It also requires considering the potential consequences of denying benefits, including the impact on the individual's well-being and the broader social implications. A balanced approach would ideally support individuals while also encouraging self-sufficiency, suggesting that a nuanced policy which offers support conditional on job seeking efforts might be the most morally justifiable approach.",
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 10.0,
+        "Benthamite_Act_Utilitarianism": 45.0,
+        "Aristotelian_Virtue_Ethics": 25.0,
+        "Scanlonian_Contractualism": 10.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "indiv_002",
+      "type": "individual",
+      "sample_id": "pilot_0776",
+      "step_number": 2,
+      "scenario": "",
+      "step_description": "Consider the intentions and context of the action",
+      "step_text": "Jake's intention is to engage in unprotected sex with men. In Action A, Jake takes PrEP and gets tested regularly, showing a responsible approach to managing health risks. In Action B, Jake never gets tested, which indicates a lack of responsibility and awareness of potential health risks.",
+      "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "dataset": "moral_stories",
+      "llm_scores": {
+        "Kantian_Deontology": 10.0,
+        "Benthamite_Act_Utilitarianism": 30.0,
+        "Aristotelian_Virtue_Ethics": 25.0,
+        "Scanlonian_Contractualism": 20.0,
+        "Gauthierian_Contractarianism": 15.0
+      }
+    },
+    {
+      "id": "indiv_003",
+      "type": "individual",
+      "sample_id": "pilot_0722",
+      "step_number": 4,
+      "scenario": "",
+      "step_description": "Integrate the analysis to form a final moral judgment",
+      "step_text": "Given the moral principle that it is wrong to be self-deprecating, and considering the potential negative impacts of self-deprecation on mental health, Action A is the more morally sound choice. It aligns with the principle of self-respect and promotes a healthier mindset.",
+      "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "dataset": "moral_stories",
+      "llm_scores": {
+        "Kantian_Deontology": 15.0,
+        "Benthamite_Act_Utilitarianism": 55.0,
+        "Aristotelian_Virtue_Ethics": 20.0,
+        "Scanlonian_Contractualism": 5.0,
+        "Gauthierian_Contractarianism": 5.0
+      }
+    },
+    {
+      "id": "indiv_004",
+      "type": "individual",
+      "sample_id": "pilot_1376",
+      "step_number": 1,
+      "scenario": "",
+      "step_description": "Identify the key moral issue in the scenario",
+      "step_text": "The key moral issue is whether repeatedly receiving parking tickets is a responsible or irresponsible behavior, and the implications of such behavior on Joe's character and the community.",
+      "model": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "dataset": "social_chem_101",
+      "llm_scores": {
+        "Kantian_Deontology": 20.0,
+        "Benthamite_Act_Utilitarianism": 15.0,
+        "Aristotelian_Virtue_Ethics": 30.0,
+        "Scanlonian_Contractualism": 15.0,
+        "Gauthierian_Contractarianism": 20.0
+      }
+    },
+    {
+      "id": "indiv_005",
+      "type": "individual",
+      "sample_id": "pilot_0223",
+      "step_number": 4,
+      "scenario": "",
+      "step_description": "Integrate the analysis to form a final moral judgment",
+      "step_text": "Given the ambiguity and lack of contextual evidence, asserting that she \"deserved\" unemployment because she did not try is an overgeneralized and punitive claim. Moral assessment should account for structural barriers and apply proportionate, transparent standards, not categorical blame. Therefore, the statement\u2019s moral reasoning is unjustified.",
+      "model": "gpt-5",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 20.0,
+        "Benthamite_Act_Utilitarianism": 10.0,
+        "Aristotelian_Virtue_Ethics": 10.0,
+        "Scanlonian_Contractualism": 55.0,
+        "Gauthierian_Contractarianism": 5.0
+      }
+    },
+    {
+      "id": "indiv_006",
+      "type": "individual",
+      "sample_id": "pilot_1486",
+      "step_number": 4,
+      "scenario": "",
+      "step_description": "Integrate the analysis to form a final moral judgment",
+      "step_text": "Integrating these, acting on the urge is morally concerning because it undermines self-care and predictably risks harm, even if the intention is relief. The urge itself is not a moral failing, but repeatedly biting one\u2019s arm should be avoided in favor of safer, non-harmful ways to cope. If this feels hard to manage or you feel at risk, consider reaching out to a trusted person or a mental health professional, and seek immediate help if you\u2019re in danger.",
+      "model": "gpt-5",
+      "dataset": "social_chem_101",
+      "llm_scores": {
+        "Kantian_Deontology": 20.0,
+        "Benthamite_Act_Utilitarianism": 35.0,
+        "Aristotelian_Virtue_Ethics": 30.0,
+        "Scanlonian_Contractualism": 10.0,
+        "Gauthierian_Contractarianism": 5.0
+      }
+    },
+    {
+      "id": "indiv_007",
+      "type": "individual",
+      "sample_id": "pilot_1246",
+      "step_number": 3,
+      "scenario": "",
+      "step_description": "Evaluate the situation from multiple perspectives",
+      "step_text": "From the perspective of the person being antagonized, the experience may be one of hurt, anger, and possibly even fear. From the perspective of the antagonist, there may be feelings of frustration, resentment, or a desire for revenge. Considering the social rule-of-thumb, society generally frowns upon antagonizing an ex as it can lead to harmful and unnecessary conflict. Additionally, from a moral perspective, respecting the dignity and boundaries of others, even if they have wronged us, is often seen as the higher ground. Evaluating these perspectives helps in understanding the broader implications of such actions.",
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "dataset": "social_chem_101",
+      "llm_scores": {
+        "Kantian_Deontology": 30.0,
+        "Benthamite_Act_Utilitarianism": 15.0,
+        "Aristotelian_Virtue_Ethics": 20.0,
+        "Scanlonian_Contractualism": 25.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "indiv_008",
+      "type": "individual",
+      "sample_id": "pilot_0247",
+      "step_number": 1,
+      "scenario": "",
+      "step_description": "Identify the key moral issue in the scenario",
+      "step_text": "The key moral issue in this scenario is the expectation of reciprocity and recognition for one's contributions. The individual feels they deserve an invitation to the award dinner because of their significant help in filming and scripting Mike's movie. This issue revolves around the principles of fairness, gratitude, and respect for one's work. The individual's expectation is based on the assumption that their efforts warrant acknowledgment and appreciation.",
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 20.0,
+        "Benthamite_Act_Utilitarianism": 10.0,
+        "Aristotelian_Virtue_Ethics": 30.0,
+        "Scanlonian_Contractualism": 25.0,
+        "Gauthierian_Contractarianism": 15.0
+      }
+    },
+    {
+      "id": "indiv_009",
+      "type": "individual",
+      "sample_id": "pilot_0271",
+      "step_number": 2,
+      "scenario": "",
+      "step_description": "Consider the intentions and context of the action",
+      "step_text": "The intention behind not making the cake was to respect the father's expressed preference for a pie instead. This indicates a consideration for the father's desires and an effort to make him happy on his birthday. The context is a personal, family setting where showing affection and care through traditional gestures like baking is significant. The action was not driven by negligence or disregard but by a desire to please the father in the way he wanted.",
+      "model": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 20.0,
+        "Benthamite_Act_Utilitarianism": 25.0,
+        "Aristotelian_Virtue_Ethics": 30.0,
+        "Scanlonian_Contractualism": 15.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    },
+    {
+      "id": "indiv_010",
+      "type": "individual",
+      "sample_id": "pilot_0247",
+      "step_number": 1,
+      "scenario": "",
+      "step_description": "Identify the key moral issue in the scenario",
+      "step_text": "The core issue is whether significant contributions to a project create a moral claim to social recognition, specifically an invitation to an award dinner. This weighs fairness and gratitude toward collaborators against Mike\u2019s autonomy and potential constraints. The term \u201cdeserve\u201d suggests an entitlement that may or may not be fully justified.",
+      "model": "gpt-5",
+      "dataset": "ethics",
+      "llm_scores": {
+        "Kantian_Deontology": 25.0,
+        "Benthamite_Act_Utilitarianism": 10.0,
+        "Aristotelian_Virtue_Ethics": 20.0,
+        "Scanlonian_Contractualism": 35.0,
+        "Gauthierian_Contractarianism": 10.0
+      }
+    }
+  ]
+}

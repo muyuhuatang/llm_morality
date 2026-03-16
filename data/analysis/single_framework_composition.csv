@@ -1,0 +1,16 @@
+model,framework,count,percentage
+gpt-5,kantian_deontology,143,67.13615023474179
+gpt-5,benthamite_act_utilitarianism,42,19.718309859154928
+gpt-5,aristotelian_virtue_ethics,18,8.450704225352112
+gpt-5,scanlonian_contractualism,10,4.694835680751173
+gpt-5,gauthierian_contractarianism,0,0.0
+meta-llama/Llama-3.3-70B-Instruct-Turbo,kantian_deontology,71,33.490566037735846
+meta-llama/Llama-3.3-70B-Instruct-Turbo,benthamite_act_utilitarianism,73,34.43396226415094
+meta-llama/Llama-3.3-70B-Instruct-Turbo,aristotelian_virtue_ethics,60,28.30188679245283
+meta-llama/Llama-3.3-70B-Instruct-Turbo,scanlonian_contractualism,8,3.7735849056603774
+meta-llama/Llama-3.3-70B-Instruct-Turbo,gauthierian_contractarianism,0,0.0
+Qwen/Qwen2.5-72B-Instruct-Turbo,kantian_deontology,72,36.734693877551024
+Qwen/Qwen2.5-72B-Instruct-Turbo,benthamite_act_utilitarianism,82,41.83673469387755
+Qwen/Qwen2.5-72B-Instruct-Turbo,aristotelian_virtue_ethics,32,16.3265306122449
+Qwen/Qwen2.5-72B-Instruct-Turbo,scanlonian_contractualism,10,5.1020408163265305
+Qwen/Qwen2.5-72B-Instruct-Turbo,gauthierian_contractarianism,0,0.0

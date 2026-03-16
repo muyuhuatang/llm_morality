@@ -1,0 +1,11 @@
+Model,Category,N Samples,KL Mean,KL Std,Top-1 Acc
+Llama-3.3-70B,Bounce/Oscillation,76,0.1148,0.2218,0.474
+Llama-3.3-70B,Single-Framework,132,0.1211,0.1167,0.621
+Llama-3.3-70B,Other,28,0.2000,0.1994,0.321
+Llama-3.3-70B,High-Entropy,28,0.0872,0.0635,0.429
+Llama-3.3-70B,Funnel-to-Util,36,0.1187,0.1007,0.528
+Qwen2.5-72B,Funnel-to-Util,40,0.1011,0.0953,0.575
+Qwen2.5-72B,High-Entropy,36,0.1341,0.1199,0.250
+Qwen2.5-72B,Single-Framework,128,0.1277,0.1353,0.680
+Qwen2.5-72B,Bounce/Oscillation,72,0.1343,0.1593,0.417
+Qwen2.5-72B,Other,24,0.2587,0.2041,0.250

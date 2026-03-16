@@ -1,0 +1,11 @@
+{
+  "model": "o3-mini",
+  "total_samples": 300,
+  "successful": 300,
+  "failed": 0,
+  "success_rate": 1.0,
+  "total_tokens": 441385,
+  "avg_tokens_per_sample": 1471.2833333333333,
+  "avg_response_length": 2127.2633333333333,
+  "collection_method": "parallel_api"
+}

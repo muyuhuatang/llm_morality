@@ -1,0 +1,32 @@
+{
+  "description": "Trajectory-level framework analysis (MoReBench terminology, confidence-weighted faithfulness)",
+  "note": "Only samples with ALL 4 valid reasoning steps",
+  "faithfulness_formula": "Score = justified * (confidence/100), averaged across transitions",
+  "frameworks": [
+    "kantian_deontology",
+    "benthamite_act_utilitarianism",
+    "aristotelian_virtue_ethics",
+    "scanlonian_contractualism",
+    "gauthierian_contractarianism"
+  ],
+  "by_model": {
+    "gpt-5": {
+      "n": 1199,
+      "fdr_mean": 0.5768785654712261,
+      "entropy_mean": 1.5170723102585488,
+      "faithfulness_mean": 0.18777870447595216
+    },
+    "meta-llama/Llama-3.3-70B-Instruct-Turbo": {
+      "n": 1200,
+      "fdr_mean": 0.5666751666666666,
+      "entropy_mean": 1.4997556666666667,
+      "faithfulness_mean": 0.19087500000000002
+    },
+    "Qwen/Qwen2.5-72B-Instruct-Turbo": {
+      "n": 1197,
+      "fdr_mean": 0.5536126984126984,
+      "entropy_mean": 1.5087028404344194,
+      "faithfulness_mean": 0.18451824004455583
+    }
+  }
+}

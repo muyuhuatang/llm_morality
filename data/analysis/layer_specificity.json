@@ -1,0 +1,305 @@
+{
+  "llama": {
+    "model": "llama",
+    "optimal_layer": 63,
+    "alpha": 0.3,
+    "layer_groups": {
+      "early": {
+        "layers_tested": [
+          1,
+          6,
+          11,
+          16
+        ],
+        "mean_fdr_reduction": 0.008333333333333335,
+        "std_fdr_reduction": 0.05292377467571569,
+        "per_layer": [
+          {
+            "layer": 1,
+            "mean_fdr_reduction": 0.02222222222222222,
+            "n_samples": 30
+          },
+          {
+            "layer": 6,
+            "mean_fdr_reduction": 0.06666666666666667,
+            "n_samples": 30
+          },
+          {
+            "layer": 11,
+            "mean_fdr_reduction": 0.022222222222222223,
+            "n_samples": 30
+          },
+          {
+            "layer": 16,
+            "mean_fdr_reduction": -0.07777777777777777,
+            "n_samples": 30
+          }
+        ]
+      },
+      "mid": {
+        "layers_tested": [
+          30,
+          35,
+          40,
+          45,
+          50
+        ],
+        "mean_fdr_reduction": 0.004444444444444444,
+        "std_fdr_reduction": 0.038232556742411675,
+        "per_layer": [
+          {
+            "layer": 30,
+            "mean_fdr_reduction": 0.06666666666666667,
+            "n_samples": 30
+          },
+          {
+            "layer": 35,
+            "mean_fdr_reduction": 0.02222222222222222,
+            "n_samples": 30
+          },
+          {
+            "layer": 40,
+            "mean_fdr_reduction": 1.8503717077085942e-18,
+            "n_samples": 30
+          },
+          {
+            "layer": 45,
+            "mean_fdr_reduction": -0.02222222222222222,
+            "n_samples": 30
+          },
+          {
+            "layer": 50,
+            "mean_fdr_reduction": -0.04444444444444443,
+            "n_samples": 30
+          }
+        ]
+      },
+      "late": {
+        "layers_tested": [
+          60,
+          65,
+          70,
+          75,
+          80
+        ],
+        "mean_fdr_reduction": -0.01333333333333333,
+        "std_fdr_reduction": 0.025724082006200497,
+        "per_layer": [
+          {
+            "layer": 60,
+            "mean_fdr_reduction": -0.05555555555555555,
+            "n_samples": 30
+          },
+          {
+            "layer": 65,
+            "mean_fdr_reduction": -0.022222222222222216,
+            "n_samples": 30
+          },
+          {
+            "layer": 70,
+            "mean_fdr_reduction": 0.0,
+            "n_samples": 30
+          },
+          {
+            "layer": 75,
+            "mean_fdr_reduction": -0.011111111111111115,
+            "n_samples": 30
+          },
+          {
+            "layer": 80,
+            "mean_fdr_reduction": 0.02222222222222222,
+            "n_samples": 30
+          }
+        ]
+      }
+    }
+  },
+  "qwen": {
+    "model": "qwen",
+    "optimal_layer": 17,
+    "alpha": 0.3,
+    "layer_groups": {
+      "early": {
+        "layers_tested": [
+          1,
+          6,
+          11,
+          16
+        ],
+        "mean_fdr_reduction": 0.030555555555555558,
+        "std_fdr_reduction": 0.04110735718596873,
+        "per_layer": [
+          {
+            "layer": 1,
+            "mean_fdr_reduction": 0.08888888888888889,
+            "n_samples": 30
+          },
+          {
+            "layer": 6,
+            "mean_fdr_reduction": -0.022222222222222223,
+            "n_samples": 30
+          },
+          {
+            "layer": 11,
+            "mean_fdr_reduction": 0.011111111111111117,
+            "n_samples": 30
+          },
+          {
+            "layer": 16,
+            "mean_fdr_reduction": 0.044444444444444446,
+            "n_samples": 30
+          }
+        ]
+      },
+      "mid": {
+        "layers_tested": [
+          30,
+          35,
+          40,
+          45,
+          50
+        ],
+        "mean_fdr_reduction": 0.004444444444444444,
+        "std_fdr_reduction": 0.008888888888888889,
+        "per_layer": [
+          {
+            "layer": 30,
+            "mean_fdr_reduction": 0.01111111111111111,
+            "n_samples": 30
+          },
+          {
+            "layer": 35,
+            "mean_fdr_reduction": 0.011111111111111112,
+            "n_samples": 30
+          },
+          {
+            "layer": 40,
+            "mean_fdr_reduction": -0.01111111111111111,
+            "n_samples": 30
+          },
+          {
+            "layer": 45,
+            "mean_fdr_reduction": 0.01111111111111111,
+            "n_samples": 30
+          },
+          {
+            "layer": 50,
+            "mean_fdr_reduction": 0.0,
+            "n_samples": 30
+          }
+        ]
+      },
+      "late": {
+        "layers_tested": [
+          60,
+          65,
+          70,
+          75,
+          80
+        ],
+        "mean_fdr_reduction": 0.0,
+        "std_fdr_reduction": 0.0,
+        "per_layer": [
+          {
+            "layer": 60,
+            "mean_fdr_reduction": 0.0,
+            "n_samples": 30
+          },
+          {
+            "layer": 65,
+            "mean_fdr_reduction": 0.0,
+            "n_samples": 30
+          },
+          {
+            "layer": 70,
+            "mean_fdr_reduction": 0.0,
+            "n_samples": 30
+          },
+          {
+            "layer": 75,
+            "mean_fdr_reduction": 0.0,
+            "n_samples": 30
+          },
+          {
+            "layer": 80,
+            "mean_fdr_reduction": 0.0,
+            "n_samples": 30
+          }
+        ]
+      }
+    }
+  },
+  "config": {
+    "layer_groups": {
+      "early": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "mid": [
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "late": [
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80
+      ]
+    },
+    "alpha": 0.3
+  }
+}

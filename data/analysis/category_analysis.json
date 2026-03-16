@@ -1,0 +1,66 @@
+{
+  "llama": {
+    "bounce": {
+      "n_samples": 76,
+      "kl_mean": 0.11482317745685577,
+      "kl_std": 0.2217739075422287,
+      "top1_accuracy": 0.47368421052631576
+    },
+    "single_framework": {
+      "n_samples": 132,
+      "kl_mean": 0.1210707426071167,
+      "kl_std": 0.11670491844415665,
+      "top1_accuracy": 0.6212121212121212
+    },
+    "other": {
+      "n_samples": 28,
+      "kl_mean": 0.19996359944343567,
+      "kl_std": 0.19935452938079834,
+      "top1_accuracy": 0.32142857142857145
+    },
+    "high_entropy": {
+      "n_samples": 28,
+      "kl_mean": 0.08721528202295303,
+      "kl_std": 0.06347009539604187,
+      "top1_accuracy": 0.42857142857142855
+    },
+    "funnel_to_util": {
+      "n_samples": 36,
+      "kl_mean": 0.11869435757398605,
+      "kl_std": 0.10069800913333893,
+      "top1_accuracy": 0.5277777777777778
+    }
+  },
+  "qwen": {
+    "funnel_to_util": {
+      "n_samples": 40,
+      "kl_mean": 0.10108286142349243,
+      "kl_std": 0.09533673524856567,
+      "top1_accuracy": 0.575
+    },
+    "high_entropy": {
+      "n_samples": 36,
+      "kl_mean": 0.13413459062576294,
+      "kl_std": 0.11992819607257843,
+      "top1_accuracy": 0.25
+    },
+    "single_framework": {
+      "n_samples": 128,
+      "kl_mean": 0.12769663333892822,
+      "kl_std": 0.13528119027614594,
+      "top1_accuracy": 0.6796875
+    },
+    "bounce": {
+      "n_samples": 72,
+      "kl_mean": 0.13429325819015503,
+      "kl_std": 0.15930874645709991,
+      "top1_accuracy": 0.4166666666666667
+    },
+    "other": {
+      "n_samples": 24,
+      "kl_mean": 0.25870323181152344,
+      "kl_std": 0.20414865016937256,
+      "top1_accuracy": 0.25
+    }
+  }
+}

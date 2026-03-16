@@ -1,0 +1,429 @@
+{
+  "data_summary": {
+    "n_observations": 2142,
+    "models": [
+      "llama",
+      "qwen"
+    ],
+    "alpha_values": [
+      0.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      8.0,
+      10.0
+    ],
+    "attack_types": [
+      "consequentialist_reframing",
+      "authority_appeal",
+      "emotional_manipulation"
+    ],
+    "has_mrc_scores": true
+  },
+  "flip_rates_by_stability": {
+    "llama_stable_alpha0.0": {
+      "model": "llama",
+      "stability": "stable",
+      "alpha": 0.0,
+      "flip_rate": 0.6667,
+      "n_flips": 58,
+      "n_total": 87
+    },
+    "llama_stable_alpha2.0": {
+      "model": "llama",
+      "stability": "stable",
+      "alpha": 2.0,
+      "flip_rate": 0.7011,
+      "n_flips": 61,
+      "n_total": 87
+    },
+    "llama_stable_alpha4.0": {
+      "model": "llama",
+      "stability": "stable",
+      "alpha": 4.0,
+      "flip_rate": 0.7011,
+      "n_flips": 61,
+      "n_total": 87
+    },
+    "llama_stable_alpha6.0": {
+      "model": "llama",
+      "stability": "stable",
+      "alpha": 6.0,
+      "flip_rate": 0.7011,
+      "n_flips": 61,
+      "n_total": 87
+    },
+    "llama_stable_alpha8.0": {
+      "model": "llama",
+      "stability": "stable",
+      "alpha": 8.0,
+      "flip_rate": 0.7701,
+      "n_flips": 67,
+      "n_total": 87
+    },
+    "llama_stable_alpha10.0": {
+      "model": "llama",
+      "stability": "stable",
+      "alpha": 10.0,
+      "flip_rate": 0.7586,
+      "n_flips": 66,
+      "n_total": 87
+    },
+    "llama_unstable_alpha0.0": {
+      "model": "llama",
+      "stability": "unstable",
+      "alpha": 0.0,
+      "flip_rate": 0.9333,
+      "n_flips": 84,
+      "n_total": 90
+    },
+    "llama_unstable_alpha2.0": {
+      "model": "llama",
+      "stability": "unstable",
+      "alpha": 2.0,
+      "flip_rate": 0.9333,
+      "n_flips": 84,
+      "n_total": 90
+    },
+    "llama_unstable_alpha4.0": {
+      "model": "llama",
+      "stability": "unstable",
+      "alpha": 4.0,
+      "flip_rate": 0.9,
+      "n_flips": 81,
+      "n_total": 90
+    },
+    "llama_unstable_alpha6.0": {
+      "model": "llama",
+      "stability": "unstable",
+      "alpha": 6.0,
+      "flip_rate": 0.8333,
+      "n_flips": 75,
+      "n_total": 90
+    },
+    "llama_unstable_alpha8.0": {
+      "model": "llama",
+      "stability": "unstable",
+      "alpha": 8.0,
+      "flip_rate": 0.8667,
+      "n_flips": 78,
+      "n_total": 90
+    },
+    "llama_unstable_alpha10.0": {
+      "model": "llama",
+      "stability": "unstable",
+      "alpha": 10.0,
+      "flip_rate": 0.8667,
+      "n_flips": 78,
+      "n_total": 90
+    },
+    "qwen_stable_alpha0.0": {
+      "model": "qwen",
+      "stability": "stable",
+      "alpha": 0.0,
+      "flip_rate": 0.7,
+      "n_flips": 63,
+      "n_total": 90
+    },
+    "qwen_stable_alpha2.0": {
+      "model": "qwen",
+      "stability": "stable",
+      "alpha": 2.0,
+      "flip_rate": 0.6667,
+      "n_flips": 60,
+      "n_total": 90
+    },
+    "qwen_stable_alpha3.0": {
+      "model": "qwen",
+      "stability": "stable",
+      "alpha": 3.0,
+      "flip_rate": 0.6333,
+      "n_flips": 57,
+      "n_total": 90
+    },
+    "qwen_stable_alpha4.0": {
+      "model": "qwen",
+      "stability": "stable",
+      "alpha": 4.0,
+      "flip_rate": 0.6667,
+      "n_flips": 60,
+      "n_total": 90
+    },
+    "qwen_stable_alpha5.0": {
+      "model": "qwen",
+      "stability": "stable",
+      "alpha": 5.0,
+      "flip_rate": 0.7,
+      "n_flips": 63,
+      "n_total": 90
+    },
+    "qwen_stable_alpha6.0": {
+      "model": "qwen",
+      "stability": "stable",
+      "alpha": 6.0,
+      "flip_rate": 0.7,
+      "n_flips": 63,
+      "n_total": 90
+    },
+    "qwen_unstable_alpha0.0": {
+      "model": "qwen",
+      "stability": "unstable",
+      "alpha": 0.0,
+      "flip_rate": 0.8333,
+      "n_flips": 75,
+      "n_total": 90
+    },
+    "qwen_unstable_alpha2.0": {
+      "model": "qwen",
+      "stability": "unstable",
+      "alpha": 2.0,
+      "flip_rate": 0.8,
+      "n_flips": 72,
+      "n_total": 90
+    },
+    "qwen_unstable_alpha3.0": {
+      "model": "qwen",
+      "stability": "unstable",
+      "alpha": 3.0,
+      "flip_rate": 0.7333,
+      "n_flips": 66,
+      "n_total": 90
+    },
+    "qwen_unstable_alpha4.0": {
+      "model": "qwen",
+      "stability": "unstable",
+      "alpha": 4.0,
+      "flip_rate": 0.8333,
+      "n_flips": 75,
+      "n_total": 90
+    },
+    "qwen_unstable_alpha5.0": {
+      "model": "qwen",
+      "stability": "unstable",
+      "alpha": 5.0,
+      "flip_rate": 0.7,
+      "n_flips": 63,
+      "n_total": 90
+    },
+    "qwen_unstable_alpha6.0": {
+      "model": "qwen",
+      "stability": "unstable",
+      "alpha": 6.0,
+      "flip_rate": 0.7667,
+      "n_flips": 69,
+      "n_total": 90
+    }
+  },
+  "steering_effects": {
+    "llama_unstable_alpha2.0": {
+      "model": "llama",
+      "stability": "unstable",
+      "alpha": 2.0,
+      "baseline_flip_rate": 0.9333333333333333,
+      "steered_flip_rate": 0.9333333333333333,
+      "absolute_reduction": 0.0,
+      "relative_reduction": 0.0
+    },
+    "llama_unstable_alpha4.0": {
+      "model": "llama",
+      "stability": "unstable",
+      "alpha": 4.0,
+      "baseline_flip_rate": 0.9333333333333333,
+      "steered_flip_rate": 0.9,
+      "absolute_reduction": 0.033333333333333326,
+      "relative_reduction": 0.035714285714285705
+    },
+    "llama_unstable_alpha6.0": {
+      "model": "llama",
+      "stability": "unstable",
+      "alpha": 6.0,
+      "baseline_flip_rate": 0.9333333333333333,
+      "steered_flip_rate": 0.8333333333333334,
+      "absolute_reduction": 0.09999999999999998,
+      "relative_reduction": 0.10714285714285712
+    },
+    "llama_unstable_alpha8.0": {
+      "model": "llama",
+      "stability": "unstable",
+      "alpha": 8.0,
+      "baseline_flip_rate": 0.9333333333333333,
+      "steered_flip_rate": 0.8666666666666667,
+      "absolute_reduction": 0.06666666666666665,
+      "relative_reduction": 0.07142857142857141
+    },
+    "llama_unstable_alpha10.0": {
+      "model": "llama",
+      "stability": "unstable",
+      "alpha": 10.0,
+      "baseline_flip_rate": 0.9333333333333333,
+      "steered_flip_rate": 0.8666666666666667,
+      "absolute_reduction": 0.06666666666666665,
+      "relative_reduction": 0.07142857142857141
+    },
+    "llama_stable_alpha2.0": {
+      "model": "llama",
+      "stability": "stable",
+      "alpha": 2.0,
+      "baseline_flip_rate": 0.6666666666666666,
+      "steered_flip_rate": 0.7011494252873564,
+      "absolute_reduction": -0.034482758620689724,
+      "relative_reduction": -0.051724137931034586
+    },
+    "llama_stable_alpha4.0": {
+      "model": "llama",
+      "stability": "stable",
+      "alpha": 4.0,
+      "baseline_flip_rate": 0.6666666666666666,
+      "steered_flip_rate": 0.7011494252873564,
+      "absolute_reduction": -0.034482758620689724,
+      "relative_reduction": -0.051724137931034586
+    },
+    "llama_stable_alpha6.0": {
+      "model": "llama",
+      "stability": "stable",
+      "alpha": 6.0,
+      "baseline_flip_rate": 0.6666666666666666,
+      "steered_flip_rate": 0.7011494252873564,
+      "absolute_reduction": -0.034482758620689724,
+      "relative_reduction": -0.051724137931034586
+    },
+    "llama_stable_alpha8.0": {
+      "model": "llama",
+      "stability": "stable",
+      "alpha": 8.0,
+      "baseline_flip_rate": 0.6666666666666666,
+      "steered_flip_rate": 0.7701149425287356,
+      "absolute_reduction": -0.10344827586206895,
+      "relative_reduction": -0.15517241379310343
+    },
+    "llama_stable_alpha10.0": {
+      "model": "llama",
+      "stability": "stable",
+      "alpha": 10.0,
+      "baseline_flip_rate": 0.6666666666666666,
+      "steered_flip_rate": 0.7586206896551724,
+      "absolute_reduction": -0.09195402298850575,
+      "relative_reduction": -0.13793103448275862
+    },
+    "qwen_unstable_alpha2.0": {
+      "model": "qwen",
+      "stability": "unstable",
+      "alpha": 2.0,
+      "baseline_flip_rate": 0.8333333333333334,
+      "steered_flip_rate": 0.8,
+      "absolute_reduction": 0.033333333333333326,
+      "relative_reduction": 0.03999999999999999
+    },
+    "qwen_unstable_alpha3.0": {
+      "model": "qwen",
+      "stability": "unstable",
+      "alpha": 3.0,
+      "baseline_flip_rate": 0.8333333333333334,
+      "steered_flip_rate": 0.7333333333333333,
+      "absolute_reduction": 0.10000000000000009,
+      "relative_reduction": 0.1200000000000001
+    },
+    "qwen_unstable_alpha4.0": {
+      "model": "qwen",
+      "stability": "unstable",
+      "alpha": 4.0,
+      "baseline_flip_rate": 0.8333333333333334,
+      "steered_flip_rate": 0.8333333333333334,
+      "absolute_reduction": 0.0,
+      "relative_reduction": 0.0
+    },
+    "qwen_unstable_alpha5.0": {
+      "model": "qwen",
+      "stability": "unstable",
+      "alpha": 5.0,
+      "baseline_flip_rate": 0.8333333333333334,
+      "steered_flip_rate": 0.7,
+      "absolute_reduction": 0.13333333333333341,
+      "relative_reduction": 0.1600000000000001
+    },
+    "qwen_unstable_alpha6.0": {
+      "model": "qwen",
+      "stability": "unstable",
+      "alpha": 6.0,
+      "baseline_flip_rate": 0.8333333333333334,
+      "steered_flip_rate": 0.7666666666666667,
+      "absolute_reduction": 0.06666666666666665,
+      "relative_reduction": 0.07999999999999997
+    },
+    "qwen_stable_alpha2.0": {
+      "model": "qwen",
+      "stability": "stable",
+      "alpha": 2.0,
+      "baseline_flip_rate": 0.7,
+      "steered_flip_rate": 0.6666666666666666,
+      "absolute_reduction": 0.033333333333333326,
+      "relative_reduction": 0.04761904761904761
+    },
+    "qwen_stable_alpha3.0": {
+      "model": "qwen",
+      "stability": "stable",
+      "alpha": 3.0,
+      "baseline_flip_rate": 0.7,
+      "steered_flip_rate": 0.6333333333333333,
+      "absolute_reduction": 0.06666666666666665,
+      "relative_reduction": 0.09523809523809522
+    },
+    "qwen_stable_alpha4.0": {
+      "model": "qwen",
+      "stability": "stable",
+      "alpha": 4.0,
+      "baseline_flip_rate": 0.7,
+      "steered_flip_rate": 0.6666666666666666,
+      "absolute_reduction": 0.033333333333333326,
+      "relative_reduction": 0.04761904761904761
+    },
+    "qwen_stable_alpha5.0": {
+      "model": "qwen",
+      "stability": "stable",
+      "alpha": 5.0,
+      "baseline_flip_rate": 0.7,
+      "steered_flip_rate": 0.7,
+      "absolute_reduction": 0.0,
+      "relative_reduction": 0.0
+    },
+    "qwen_stable_alpha6.0": {
+      "model": "qwen",
+      "stability": "stable",
+      "alpha": 6.0,
+      "baseline_flip_rate": 0.7,
+      "steered_flip_rate": 0.7,
+      "absolute_reduction": 0.0,
+      "relative_reduction": 0.0
+    }
+  },
+  "statistical_tests": {
+    "point_biserial_correlation": {
+      "r": -0.24278097949831928,
+      "p_value": 3.4716571649614978e-06,
+      "significant": true
+    },
+    "chi_square": {
+      "chi2": 19.878466390600913,
+      "df": 1,
+      "p_value": 8.252465725710298e-06,
+      "significant": true
+    },
+    "two_proportion_ztest": {
+      "z": -4.587211531006641,
+      "p_value": 2.246027407671362e-06,
+      "significant": true,
+      "stable_flip_rate": 0.6836158192090396,
+      "unstable_flip_rate": 0.8833333333333333
+    },
+    "cohens_h": 0.4976022460372471
+  },
+  "key_findings": [
+    "High-MRC scenarios show 22.6% lower flip rates than low-MRC scenarios",
+    "Susceptibility ratio (Low MRC / High MRC): 1.29x",
+    "MRC-flip relationship is statistically significant (\u03c7\u00b2=19.88, p<0.05)",
+    "Steering provides greater benefit for low-MRC scenarios (avg reduction: 6.0% vs -1.7%)",
+    "Effect size (Cohen's h = 0.498) indicates small practical significance"
+  ]
+}

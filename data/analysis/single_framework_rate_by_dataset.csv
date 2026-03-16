@@ -1,0 +1,10 @@
+dataset,model,single_count,total,rate
+ethics,gpt-5,54,400,13.5
+ethics,Llama-3.3-70B-Instruct-Turbo,66,400,16.5
+ethics,Qwen2.5-72B-Instruct-Turbo,72,399,18.045112781954884
+moral_stories,gpt-5,96,400,24.0
+moral_stories,Llama-3.3-70B-Instruct-Turbo,85,400,21.25
+moral_stories,Qwen2.5-72B-Instruct-Turbo,64,398,16.08040201005025
+social_chem_101,gpt-5,63,399,15.789473684210526
+social_chem_101,Llama-3.3-70B-Instruct-Turbo,61,400,15.25
+social_chem_101,Qwen2.5-72B-Instruct-Turbo,60,400,15.0

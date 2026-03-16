@@ -1,0 +1,10 @@
+{
+  "model": "gpt-4o-mini",
+  "total_samples": 300,
+  "successful": 300,
+  "failed": 0,
+  "success_rate": 1.0,
+  "total_tokens": 292777,
+  "avg_tokens_per_sample": 975.9233333333333,
+  "avg_response_length": 2115.0133333333333
+}

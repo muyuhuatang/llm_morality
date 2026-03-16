@@ -1,0 +1,85 @@
+{
+  "primary_validation": {
+    "n_samples": 539,
+    "pearson_correlation": {
+      "r": 0.6454351585331258,
+      "p": 7.770545390671625e-65,
+      "significant": true
+    },
+    "spearman_correlation": {
+      "rho": 0.6256337841969052,
+      "p": 6.74429160984859e-60,
+      "significant": true
+    }
+  },
+  "category_validation": {
+    "bounce": {
+      "mrc_mean": 0.4305,
+      "mrc_std": 0.0957,
+      "rating_mean": 60.5688,
+      "rating_std": 23.7784,
+      "n_samples": 269
+    },
+    "high_entropy": {
+      "mrc_mean": 0.2401,
+      "mrc_std": 0.0884,
+      "rating_mean": 49.8618,
+      "rating_std": 22.5688,
+      "n_samples": 123
+    },
+    "single_framework": {
+      "mrc_mean": 0.6866,
+      "mrc_std": 0.0556,
+      "rating_mean": 81.9184,
+      "rating_std": 19.2145,
+      "n_samples": 147
+    }
+  },
+  "baseline_comparison": {
+    "mrc_score": {
+      "correlation": 0.6454351585331258,
+      "p_value": 7.770545390671625e-65
+    },
+    "fdr": {
+      "correlation": 0.4446053022196884,
+      "p_value": 1.598787029636045e-27
+    },
+    "entropy": {
+      "correlation": 0.3489199020782192,
+      "p_value": 7.08795373100632e-17
+    }
+  },
+  "component_analysis": {
+    "mrc_variance_component": {
+      "name": "Variance (1 - entropy)",
+      "correlation": 0.34891990207821916,
+      "p_value": 7.08795373100632e-17,
+      "spearman_r": 0.3739726107542664,
+      "spearman_p": 2.463272325148018e-19
+    },
+    "mrc_drift_component": {
+      "name": "Drift (1 - FDR)",
+      "correlation": 0.44460530221968847,
+      "p_value": 1.598787029636045e-27,
+      "spearman_r": 0.43314498327580797,
+      "spearman_p": 4.653990865268988e-26
+    },
+    "mrc_stability_component": {
+      "name": "Stability",
+      "correlation": 0.7008304187283936,
+      "p_value": 8.0652959548010485e-81,
+      "spearman_r": 0.6845647645814572,
+      "spearman_p": 9.32755746379449e-76
+    }
+  },
+  "expected_vs_actual": {
+    "single_framework": {
+      "expected_mrc": "high (~0.7)",
+      "actual_mrc": 0.6866
+    },
+    "high_entropy": {
+      "expected_mrc": "low (~0.4)",
+      "actual_mrc": 0.2401
+    }
+  }
+}
