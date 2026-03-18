@@ -52,3 +52,16 @@ Before public release, the following filtering was applied:
 - Raw activation files (`.h5`, ~5 GB) are excluded due to size but can be regenerated using `code/extract_activations.py`.
 - Embedding pickle files (`.pkl`) and trained probe weights are excluded for the same reason.
 - API keys are not included; users must supply their own via environment variables.
+
+## Citation
+
+If you use this code or data, please cite our paper:
+
+```bibtex
+@article{huang2026moral_traj,
+  title={Understanding Moral Reasoning Trajectories in Large Language Models: Toward Probing-Based Explainability},
+  author={Huang, Fan and Kwak, Haewoon and An, Jisun},
+  journal={arXiv preprint arXiv:2603.16017},
+  year={2026}
+}
+```
