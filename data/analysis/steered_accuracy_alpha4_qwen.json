@@ -1,0 +1,72 @@
+{
+  "model": "qwen",
+  "alpha": 4.0,
+  "total_samples": 500,
+  "valid_samples": 498,
+  "overall_accuracy": 0.6265060240963856,
+  "by_stability": {
+    "stable": {
+      "accuracy": 0.6479591836734694,
+      "correct": 127,
+      "total": 196
+    },
+    "unstable": {
+      "accuracy": 0.6125827814569537,
+      "correct": 185,
+      "total": 302
+    }
+  },
+  "by_dataset": {
+    "ethics": {
+      "accuracy": 0.5885714285714285,
+      "correct": 103,
+      "total": 175
+    },
+    "moral_stories": {
+      "accuracy": 0.6826347305389222,
+      "correct": 114,
+      "total": 167
+    },
+    "social_chem_101": {
+      "accuracy": 0.6089743589743589,
+      "correct": 95,
+      "total": 156
+    }
+  },
+  "by_stability_dataset": {
+    "stable": {
+      "ethics": {
+        "accuracy": 0.6527777777777778,
+        "correct": 47,
+        "total": 72
+      },
+      "moral_stories": {
+        "accuracy": 0.703125,
+        "correct": 45,
+        "total": 64
+      },
+      "social_chem_101": {
+        "accuracy": 0.5833333333333334,
+        "correct": 35,
+        "total": 60
+      }
+    },
+    "unstable": {
+      "ethics": {
+        "accuracy": 0.5436893203883495,
+        "correct": 56,
+        "total": 103
+      },
+      "moral_stories": {
+        "accuracy": 0.6699029126213593,
+        "correct": 69,
+        "total": 103
+      },
+      "social_chem_101": {
+        "accuracy": 0.625,
+        "correct": 60,
+        "total": 96
+      }
+    }
+  }
+}

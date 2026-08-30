@@ -1,0 +1,38 @@
+{
+  "llama": {
+    "model": "Llama",
+    "total_samples": 500,
+    "valid_samples": 497,
+    "overall_accuracy": 0.6539235412474849,
+    "by_stability": {
+      "stable": {
+        "accuracy": 0.6303317535545023,
+        "correct": 133,
+        "total": 211
+      },
+      "unstable": {
+        "accuracy": 0.6713286713286714,
+        "correct": 192,
+        "total": 286
+      }
+    }
+  },
+  "qwen": {
+    "model": "Qwen",
+    "total_samples": 500,
+    "valid_samples": 498,
+    "overall_accuracy": 0.5983935742971888,
+    "by_stability": {
+      "stable": {
+        "accuracy": 0.6224489795918368,
+        "correct": 122,
+        "total": 196
+      },
+      "unstable": {
+        "accuracy": 0.5827814569536424,
+        "correct": 176,
+        "total": 302
+      }
+    }
+  }
+}
